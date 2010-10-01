@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+require 'sinatra/reloader'
 
 enable :run
 set :public, File.dirname(__FILE__) + '/public'
